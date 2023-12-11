@@ -1,7 +1,0 @@
-{
-  "name": "site-constance",
-  "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest"
-  }
-}
