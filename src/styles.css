@@ -153,6 +153,7 @@ p {
 
 #presentation a:hover {
   background: #b72525;
+  color: white;
 }
 
 #presentation a:visited {
@@ -644,6 +645,10 @@ h5 {
 .container-fin a:hover {
   background: #b72525;
   color: white;
+}
+
+.container-fin a:visited {
+  color: black;
 }
 
 
