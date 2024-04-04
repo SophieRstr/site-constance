@@ -680,6 +680,15 @@ h5 {
   color: #ffb470;
 }
 
+ @media (max-width: 1000px) {
+    #Mentions  {
+      width: auto;
+      height: auto;
+      padding-left: 2em;
+      margin-right: 2em;
+    }
+  }
+
 /**/
 
 /*Footer*/
