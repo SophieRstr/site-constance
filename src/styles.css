@@ -21,6 +21,12 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  font-size: 20px;
+  font-family: "Tenorite", sans-serif;
+  font-weight: bold;
+}
+
 p {
   font-family: "Tenorite", sans-serif;
 }
@@ -623,6 +629,60 @@ h5 {
     height: auto;
   }
 }
+/**/
+
+/*Mention Légales*/
+
+#Mentions {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 3em;
+  padding-top: 2em;
+  margin-top: 2em;
+  color: black;
+  line-height: 1.5;
+  padding-left: 12em;
+  width: 800px;
+  }
+
+  #Mentions a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  #Mentions a:hover {
+    background: #b72525;
+    color: white;
+  }
+  
+  #Mentions a:visited {
+    color: black;
+  }
+  
+  #retour {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2em;
+    background-color: white;
+  }
+
+  .retour1 a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .retour1 a:hover {
+    background: #b72525;
+    color: white;
+  }
+  
+ .retour1 a:visited {
+    color: black;
+  }
+
 /**/
 
 /*Footer*/
