@@ -669,19 +669,15 @@ h5 {
     background-color: white;
   }
 
-  .retour1 a {
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .retour1 a:hover {
-    background: #b72525;
-    color: white;
-  }
-  
- .retour1 a:visited {
-    color: black;
-  }
+.retour1 a {
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+
+.retour1 a:hover {
+  text-decoration: none;
+  color: #ffb470;
+}
 
 /**/
 
