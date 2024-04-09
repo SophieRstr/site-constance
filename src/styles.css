@@ -157,13 +157,13 @@ p {
   color: black;
 }
 
-#presentation a:hover {
-  background: #b72525;
-  color: #ffffff;
+#presentation a:visited {
+    color: black;
 }
 
-#presentation a:visited {
-  color: black;
+#presentation a:hover, a:visited {
+  background: #b72525;
+  color: white;
 }
 
 #presentation span {
@@ -708,13 +708,13 @@ h5 {
   text-decoration: none;
 }
 
-.container-fin a:hover {
-  background: #b72525;
-  color: white;
-}
-
 .container-fin a:visited {
   color: black;
+}
+
+.container-fin a:hover, a:visited {
+  background: #b72525;
+  color: white;
 }
 
 
