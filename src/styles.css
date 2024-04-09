@@ -675,7 +675,11 @@ h5 {
   text-decoration: none;
 }
 
-.retour1 a:hover {
+.retour1 a:visited {
+  color: black;
+}
+
+.retour1 a:hover, a:visited {
   text-decoration: none;
   color: #ffb470;
 }
