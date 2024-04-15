@@ -115,37 +115,35 @@ p {
   margin-bottom: 10px;
 }
 
+.menu-items.vertical {
+  display: none; /* Cache le menu horizontal par défaut */
+}
+
 @media (max-width: 1180px) {
   .menu-toggle {
     display: block;
     cursor: pointer;
-    padding-top:2em;
+    padding-top: 2em;
   }
 
   .menu-items {
     display: none;
   }
 
- 
-
-  .menu-items.active {
+  .menu-items.vertical.active {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .menu-items.active ul {
+  .menu-items.vertical.active ul {
     list-style-type: none;
     padding: 0;
   }
 
-  .menu-items.active li {
+  .menu-items.vertical.active li {
     margin-bottom: 10px;
   }
-
-   .menu-items.vertical {
-  display: none; /* Cache le menu horizontal par défaut */
-}
 
   /* Ajout de styles pour l'icône burger */
   .menu-toggle .bar {
@@ -168,7 +166,6 @@ p {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 }
-
 
 /**/
 
