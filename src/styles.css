@@ -115,33 +115,29 @@ p {
   margin-bottom: 10px;
 }
 
-.menu-items.vertical {
-  display: none; /* Cache le menu horizontal par défaut */
-}
-
 @media (max-width: 1180px) {
   .menu-toggle {
     display: block;
     cursor: pointer;
-    padding-top: 2em;
+    padding-top:2em;
   }
 
   .menu-items {
     display: none;
   }
 
-  .menu-items.vertical.active {
+  .menu-items.active {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .menu-items.vertical.active ul {
+  .menu-items.active ul {
     list-style-type: none;
     padding: 0;
   }
 
-  .menu-items.vertical.active li {
+  .menu-items.active li {
     margin-bottom: 10px;
   }
 
