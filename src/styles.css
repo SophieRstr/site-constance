@@ -34,8 +34,15 @@ p {
 /**/
 
 /**/
-
 /*Top*/
+
+#top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+}
 
 .logo img {
   height: 100px;
@@ -50,7 +57,6 @@ p {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 2em;
   padding-top: 0.5em;
   margin-right: 100px;
 }
@@ -116,10 +122,21 @@ p {
 }
 
 @media (max-width: 1180px) {
+
+  #top {
+    display: block;
+  }
+
+  .logo img {
+    height: 100px;
+    margin-left: 1em;
+    margin-right: 2.5em ;
+  }
+
   .menu-toggle {
     display: block;
     cursor: pointer;
-    padding-top:2em;
+    padding-top:1em;
   }
 
   .menu-items {
@@ -173,7 +190,7 @@ p {
 
 @media (max-width: 700px) {
   #menu-1 {
-    padding-top:2.5em;
+    padding-top:1.5em;
   }
  
 
