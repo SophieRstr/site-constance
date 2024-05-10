@@ -14,14 +14,7 @@ h2 {
   font-weight: bold;
 }
 
-h3,
-h4 {
-  font-family: "Tenorite", sans-serif;
-  font-size: 29px;
-  text-align: center;
-}
-
-h5 {
+h3 {
   font-size: 20px;
   font-family: "Tenorite", sans-serif;
   font-weight: bold;
