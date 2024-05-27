@@ -165,7 +165,7 @@ p {
     position: absolute; /* Positionnez le menu de façon absolue */
     top: 0; /* Alignez le menu en haut */
     left: 0; /* Alignez le menu à gauche */
-    width: auto; /* Prenez toute la largeur de l'écran */
+    width: 100%; /* Prenez toute la largeur de l'écran */
     z-index: 1000; /* Placez le menu en avant-plan */
     background-color: white;
   }
@@ -173,7 +173,7 @@ p {
   .menu-items.active {
     display: flex;
     flex-direction: column;
-    width: auto; /* Prenez toute la largeur de l'écran */
+    width: 100%; /* Prenez toute la largeur de l'écran */
     padding-top: 5em;
   }
 
@@ -186,6 +186,7 @@ p {
 
   .menu-items.active li {
     margin-bottom: 10px;
+    width: 100%;
   }
 
   /* Ajout de styles pour l'icône burger */
@@ -225,7 +226,7 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: 5em;
-    width: auto; /* Prenez toute la largeur de l'écran */
+    width: 100%; /* Prenez toute la largeur de l'écran */
   }
 
   .menu-items.active ul {
@@ -239,7 +240,7 @@ p {
     margin-bottom: 10px;
     margin: 1em;
     font-size: 17px;
-    width: 200px;
+    width: 100%;
   }
 }
 
