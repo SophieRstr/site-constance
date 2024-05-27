@@ -176,7 +176,7 @@ p {
     }
   
     .menu-items.active {
-      background-color: transparent;
+      background-color: white;
       display: flex;
       flex-direction: column;
     
