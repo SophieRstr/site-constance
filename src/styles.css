@@ -390,16 +390,16 @@ p {
   width: 800px;
   height: auto;
   line-height: 1.5em;
-  color: white;
+  color: black;
   background-color: transparent;
 }
 
 #container1 h2 {
-  color: white;
+  color: black;
 }
 
 #container1 {
-  background-color: #ffb470;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -407,6 +407,7 @@ p {
   z-index: 10;
   padding-bottom: 3em;
   padding-top: 2em;
+  border-bottom: #ffb470 1px;
 }
 
 #container2 {
