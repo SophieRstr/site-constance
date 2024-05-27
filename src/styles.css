@@ -179,7 +179,8 @@ p {
       background-color: white;
       display: flex;
       flex-direction: column;
-    
+      width: auto;
+      padding-top: 5em;
     }
   
     .menu-items.active ul {
@@ -187,6 +188,7 @@ p {
       flex-direction: column;
       list-style-type: none;
       padding: 0;
+      width: auto;
     }
   
     .menu-items.active li {
