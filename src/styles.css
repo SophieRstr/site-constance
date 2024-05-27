@@ -165,7 +165,7 @@ p {
     position: absolute; /* Positionnez le menu de façon absolue */
     top: 0; /* Alignez le menu en haut */
     left: 0; /* Alignez le menu à gauche */
-    width: 100%; /* Prenez toute la largeur de l'écran */
+    width: auto; /* Prenez toute la largeur de l'écran */
     z-index: 1000; /* Placez le menu en avant-plan */
     background-color: white;
   }
@@ -173,7 +173,7 @@ p {
   .menu-items.active {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Prenez toute la largeur de l'écran */
+    width: auto; /* Prenez toute la largeur de l'écran */
     padding-top: 5em;
   }
 
@@ -225,7 +225,7 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: 5em;
-    width: 100%; /* Prenez toute la largeur de l'écran */
+    width: auto; /* Prenez toute la largeur de l'écran */
   }
 
   .menu-items.active ul {
