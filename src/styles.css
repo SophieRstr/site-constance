@@ -249,17 +249,17 @@ p {
 /**/
 
 
-#conteneur1 {
+#presentation {
     position: relative;
   }
 
 
-.conteneur1-img img  {
+.presentation-img img  {
     width: 100%; 
     display: block;
 }
 
-.conteneur1-txt {
+.presentation-txt {
     background-color: transparent;
     color: white;
     position: absolute;
@@ -271,11 +271,11 @@ p {
     flex-direction: column;
 }
 
-.conteneur1-txt p {
+.presentation-txt p {
     font-size: 20px;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
     font-family: "Tenorite", sans-serif;
     font-size: 30px;
     font-style: italic;
@@ -285,7 +285,7 @@ p {
 }
 
 @media (max-width: 1180px) {
-  .conteneur1-txt {
+  .presentation-txt {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -293,11 +293,11 @@ p {
     width: 100%;
 }
 
-.conteneur1-txt p {
+.presentation-txt p {
     font-size: 20px;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
     font-size: 30px;
     margin-top: 2em;
 }
@@ -310,7 +310,7 @@ p {
     font-family: "Tenorite", sans-serif;
   }
 
-  .conteneur1-txt {
+  .presentation-txt {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -318,11 +318,11 @@ p {
     width: 90%;
 }
 
-.conteneur1-txt p {
+.presentation-txt p {
     font-size: 18px;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
     font-size: 22px;
     margin-top: 2em;
 }
@@ -334,7 +334,7 @@ p {
     font-size: 22px;
   }
 
-  .conteneur1-txt {
+  .presentation-txt {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -342,23 +342,23 @@ p {
     width: 90%;
 }
 
-.conteneur1-txt p {
+.presentation-txt p {
     font-size: 16px;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
     font-size: 18px;
 }
 }
 
 @media (max-width: 500px) {
 
-  .conteneur1-txt p {
+  .presentation-txt p {
     font-size: 16px;
     margin-top: -0.5em;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
   font-size: 18px;
   margin-top: 1.5em;
 }
@@ -369,11 +369,11 @@ p {
     font-size: 20px;
   }
 
-  .conteneur1-txt p {
+  .presentation-txt p {
     font-size: 16px;
 }
 
-.conteneur1-txt span {
+.presentation-txt span {
   display:none;}
 }
 
