@@ -167,9 +167,12 @@ p {
   
     .menu-items {
       display: none;
-    position: absolute; /* Positionnez le menu de façon absolue */
-    z-index: 1000; /* Placez le menu en avant-plan */
-    background-color: white;
+      position: absolute; /* Positionnez le menu de façon absolue */
+      top: 0; /* Alignez le menu en haut */
+      left: 0; /* Alignez le menu à gauche */
+      width: 100%; 
+      z-index: 1000; /* Placez le menu en avant-plan */
+      background-color: white;
     }
   
     .menu-items.active {
