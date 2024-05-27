@@ -129,6 +129,12 @@ p {
   display: none;
   cursor: pointer;
   z-index: 1002; /* Ensure the toggle is always on top */
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .menu-items {
@@ -158,7 +164,6 @@ p {
 
   .menu-toggle {
     display: block;
-    padding-top: 0.5em;
   }
 
   .menu-items {
@@ -168,11 +173,13 @@ p {
     left: 0;
     right: 0;
     z-index: 1000; /* Ensure it is on top */
-    background-color: white; /* White background to cover content */
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 5em; /* Adjust the padding-top if necessary */
+    padding-top: 60px; /* Adjust the padding-top if necessary */
+    height: 100vh; /* Full height to cover the viewport */
+    overflow-y: auto; /* Allow vertical scrolling */
   }
 
   .menu-items.active {
@@ -231,10 +238,12 @@ p {
   .menu-items.active {
     display: flex;
     flex-direction: column;
-    padding-top: 5em;
+    padding-top: 60px; /* Adjust the padding-top if necessary */
     width: 100%; /* Take full width of the screen */
     left: 0;
     right: 0;
+    height: 100vh; /* Full height to cover the viewport */
+    overflow-y: auto; /* Allow vertical scrolling */
   }
 
   .menu-items ul {
@@ -256,6 +265,7 @@ p {
     background-color: white; /* Ensure the background is white */
   }
 }
+
 
 /**/
 
