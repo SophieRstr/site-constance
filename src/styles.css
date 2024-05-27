@@ -154,6 +154,10 @@ p {
       margin-right: 2.5em;
 
     }
+
+    #menu-1 {
+      position: relative;
+    }
   
     .menu-toggle {
       display: block;
@@ -163,6 +167,9 @@ p {
   
     .menu-items {
       display: none;
+    position: absolute; /* Positionnez le menu de façon absolue */
+    z-index: 1000; /* Placez le menu en avant-plan */
+    background-color: white;
     }
   
     .menu-items.active {
