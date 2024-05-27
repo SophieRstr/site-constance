@@ -184,14 +184,14 @@ p {
   }
 
   .menu-items li {
-    width: 100%; /* Ensure the list item takes full width */
+    width: auto; /* Ensure the list item takes full width */
     text-align: center; /* Center the text for better readability */
     margin: 1em 0;
   }
 
   .menu-items li a {
     display: block;
-    width: 100%;
+    width: auto;
     padding: 1em 0; /* Add padding for better clickable area */
   }
 
