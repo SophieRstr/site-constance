@@ -399,7 +399,7 @@ p {
 }
 
 #container1 {
-  background-color: red;
+  background-color:  #ffffff;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -407,7 +407,7 @@ p {
   z-index: 10;
   padding-bottom: 3em;
   padding-top: 2em;
-  border-bottom: #ffb470 2px solid;
+  border-bottom: #ffb470 1px solid;
 }
 
 #container2 {
