@@ -132,9 +132,6 @@ p {
   position: fixed;
   top: 10px;
   right: 10px;
-  background: white;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .menu-items {
@@ -201,7 +198,7 @@ p {
   .menu-items li a {
     display: inline-block;
     padding: 1em 2em; /* Add padding for better clickable area */
-    background-color: white; /* Ensure the background is white */
+    background-color: rgba(255, 255, 255, 0.95); /* Ensure the background is white */
   }
 
   /* Styles for the burger icon */
@@ -262,7 +259,7 @@ p {
   .menu-items li a {
     display: inline-block;
     padding: 1em 2em; /* Add padding for better clickable area */
-    background-color: white; /* Ensure the background is white */
+    background-color: rgba(255, 255, 255, 0.95); /* Ensure the background is white */
   }
 }
 
