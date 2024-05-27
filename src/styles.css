@@ -399,7 +399,7 @@ p {
 }
 
 #container1 {
-  background-color: transparent;
+  background-color: red;
   display: flex;
   flex-direction: column;
   text-align: center;
