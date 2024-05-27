@@ -156,7 +156,7 @@ p {
     }
 
     #menu-1 {
-      position: relative;
+      position: absolute;
     }
   
     .menu-toggle {
@@ -170,7 +170,7 @@ p {
       position: absolute; /* Positionnez le menu de façon absolue */
       top: 0; /* Alignez le menu en haut */
       left: 0; /* Alignez le menu à gauche */
-      width: 100%; 
+      width: auto; 
       z-index: 1000; /* Placez le menu en avant-plan */
       background-color: white;
     }
