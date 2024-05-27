@@ -123,6 +123,7 @@ p {
 
 .menu-toggle {
   display: none;
+  z-index: 1001;
 }
 
 .menu-items {
@@ -162,12 +163,16 @@ p {
 
   .menu-items {
     display: none;
-    position: absolute; /* Positionnez le menu de façon absolue */
-    top: 0; /* Alignez le menu en haut */
-    left: 0; /* Alignez le menu à gauche */
-    width: 100%; /* Prenez toute la largeur de l'écran */
-    z-index: 1000; /* Placez le menu en avant-plan */
-    background-color: white;
+    position: fixed; /* Fixed position to stay in view */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover full width */
+    height: 100%; /* Cover full height */
+    z-index: 1000; /* Ensure it is on top */
+    background-color: white; /* White background to cover content */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu-items.active {
