@@ -104,6 +104,7 @@ p {
   flex-direction: row;
   background-color: transparent;
   position: relative;
+  z-index: 1001;
 }
 
 #menu-1 li {
@@ -127,7 +128,7 @@ p {
 .menu-toggle {
   display: none;
   cursor: pointer;
-  z-index: 1001; /* Ensure the toggle is always on top */
+  z-index: 1002; /* Ensure the toggle is always on top */
 }
 
 .menu-items {
@@ -162,16 +163,16 @@ p {
 
   .menu-items {
     display: none;
-    position: absolute; /* Positionnez le menu de façon absolue */
+    position: fixed; /* Fixed position to stay in view */
     top: 0;
     left: 0;
-    width: auto;
+    right: 0;
     z-index: 1000; /* Ensure it is on top */
-    background-color: white;
+    background-color: white; /* White background to cover content */
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 5em; /* Ajustez le padding-top si nécessaire */
+    padding-top: 5em; /* Adjust the padding-top if necessary */
   }
 
   .menu-items.active {
@@ -231,7 +232,7 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: 5em;
-    width: auto; /* Prenez seulement la largeur nécessaire */
+    width: 100%; /* Take full width of the screen */
     left: 0;
     right: 0;
   }
@@ -244,6 +245,7 @@ p {
   }
 
   .menu-items li {
+    width: auto; /* Adjust the width to auto */
     text-align: center; /* Center the text for better readability */
     margin: 0.5em 0;
   }
@@ -254,7 +256,6 @@ p {
     background-color: white; /* Ensure the background is white */
   }
 }
-
 
 /**/
 
